@@ -1,8 +1,6 @@
-(1) the lstm model is to understand better, the lstm_matrix is to make the code looks simple. no big difference
+(1) problem: the loss is ver hard to decrease after it reaches about 4, I haven't found a good solution
 
-(2) problem: the loss is ver hard to decrease after it reaches about 5, I haven't found a good solution
-
-(3) !!! 
+(2) !!! 
 at first the training result is very bad, because there is a mistake in the code. （the result is showed in this file :lstm_main_ifoc(ergebnis with mistake) ）
 
 I didn't write the following code, and I reshape the data directly. the result is : there is no syntax error, but the data is already destroyed.
@@ -15,6 +13,8 @@ print(a)
 tensor([[1., 4.],
         [2., 5.],
         [3., 6.]])
+
+(3) the lstm model is to understand better, the lstm_matrix is to make the code looks simple. no big difference
 
 （4） 和 tutor确认
 一句话24个单词共用同一个h_pre 和  c_pre
